@@ -2,18 +2,19 @@
   "name": "chai-or-backend",
   "version": "1.0.0",
   "description": "a backend ",
+  "type": "module",
   "keywords": [
     "javascript",
     "backend"
   ],
   "license": "ISC",
   "author": "bhumika varshney",
-  "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
   }
 }
